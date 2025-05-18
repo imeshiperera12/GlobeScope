@@ -52,7 +52,7 @@ const SearchBar = ({ onSearch }) => {
     WebkitBackdropFilter: 'blur(6px)',
   };
 
-  // Create custom inline CSS to target placeholder
+  // custom inline CSS to target placeholder
   const placeholderStyle = `
     .custom-input::placeholder {
       color: gray !important;

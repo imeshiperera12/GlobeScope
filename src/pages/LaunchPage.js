@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import { useNavigate } from 'react-router-dom';
 
 const LaunchPage = () => {
-  const navigate = useNavigate(); // ✅ FIXED: define navigate properly here
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     AOS.init({ duration: 1000 });

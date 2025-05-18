@@ -5,7 +5,8 @@ import { FaHeart, FaRegHeart } from 'react-icons/fa';
 
 const CountryCard = ({ country }) => {
   const { favorites, toggleFavorite } = useFavorite();
-  const isFavorite = (code) => favorites.some((item) => item.code === code);
+  const isFavorite = (code) => favorites.some((item) => item.cca3 === code);
+
 
   const formatPopulation = (population) => population.toLocaleString();
   const getLanguages = (languages) => {

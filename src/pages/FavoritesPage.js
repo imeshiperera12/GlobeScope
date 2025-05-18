@@ -49,10 +49,10 @@ const FavoritesPage = () => {
           <div
             className="card mx-4"
             style={{
-              backgroundColor: 'rgba(0,0,0,0.6)', // Card background
+              backgroundColor: 'rgba(0,0,0,0.6)', 
               border: 'none',
               borderRadius: '15px',
-              boxShadow: '0 10px 20px rgba(0, 0, 0, 0.3)', // Card shadow for depth
+              boxShadow: '0 10px 20px rgba(0, 0, 0, 0.3)', 
               transition: 'all 0.3s ease-in-out',
               animation: 'cardSlide 1s ease-out',
             }}
